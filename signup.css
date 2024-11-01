@@ -1,0 +1,200 @@
+body{
+    width: 1920;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 670px;
+    height: 960px;
+    border-radius: 20px;
+    border: 1px solid #AACDFF;
+    display: flex;
+    justify-content: center;    /* 수평 중앙 정렬 */
+    align-items: center;        /* 수직 중앙 정렬 */
+    box-shadow: 7px 7px 39px 0px #0068FF40;
+    
+}
+
+.login-text-box {
+    width: 470px;
+    height: 818px;
+    display: flex;
+    flex-direction: column;     /* 수직으로 배치 */
+    justify-content: center;     /* 내용 중앙 정렬 */
+    align-items: center;        /* 내용 중앙 정렬 */
+    opacity: 1;                 /* 불투명도 설정 */
+}
+/* 전체 배경 색 */
+.text-block{
+    background-color: white;
+
+}
+
+/* 회원 가입 텍스트 색갈 변경 */
+h2{
+    width: 466px;
+    height: 94px;
+    top :132px;
+    left: 725px;
+    color: #0068ff ;
+}
+
+/* 이메일 입력 박스 */
+.email-block{
+    width: 466px;
+    height: 80px;
+    top: 286px;
+    left: 725px;
+    border: 1px;
+}
+
+/*이름 입력 박스*/
+.name-block{
+    width:466px;
+    height: 80px;
+    top: 488px;
+    left: 725px;
+    border: 1px;
+}
+
+/* 비밀번호 입력 박스*/
+.password-block{
+    width:466px;
+    height: 80px;
+    top: 488px;
+    left: 725px;
+    border: 1px;
+}
+
+/*비밀번호 확인 입력 박스*/
+.pw_check-block{
+    width:466px;
+    height: 80px;
+    top: 488px;
+    left: 725px;
+    border: 1px;
+}
+
+/* 이름 태그 정렬*/
+#gender{
+    width: 140px;
+    height: 23.94px;
+    top:719px;
+    left: 890px;
+    border:1px;
+
+    position: center;
+}
+
+
+/* 입력 밑줄 style sheet*/
+.email{
+    width: 466px;
+    top: 366px;
+    left: 725px;
+
+    border:none;
+    border-bottom: 1px solid #797979;
+}
+
+.email:hover, .email:focus{
+    outline: none;
+    box-shadow: none;
+
+    border:none;
+    border-bottom: 1px solid #0068FF;
+}
+
+.name{
+    width: 466px;
+    top: 366px;
+    left: 725px;
+
+    border:none;
+    border-bottom: 1px solid #797979;
+}
+
+.name:hover, .name:focus{
+    outline: none;
+    box-shadow: none;
+    
+    border:none;
+    border-bottom: 1px solid #0068FF;
+}
+
+.pw{
+    width: 466px;
+    top: 366px;
+    left: 725px;
+
+    border:none;
+    border-bottom: 1px solid #797979;
+}
+
+.pw:hover, .pw:focus{
+    outline: none;
+    box-shadow: none;
+    
+    border-bottom: 1px solid #0068FF;
+}
+
+.radio-block {
+    display: flex;
+    align-items: center;       /* 수직 중앙 정렬 */
+    justify-content: center;   /* 수평 중앙 정렬 */
+    gap: 15px;                 /* 버튼과 텍스트 사이 간격 */
+    
+    padding-bottom: 5px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;                  /* 버튼과 텍스트 사이 간격 */
+}
+
+.gender {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+    cursor: pointer;
+}
+
+.gender:checked {
+    background-color: #0068ff;
+    border-color: #0068ff;
+}
+
+.button-block {
+    display: flex;
+    justify-content: center;   /* 수평 중앙 정렬 */
+    align-items: center;       /* 수직 중앙 정렬 */
+    margin-top: 20px;          /* 상단 여백 */
+}
+/* 가입하기 버튼*/
+.join-button {
+    width: 470px;
+    height: 75px;
+    border-radius: 10px 0 0 0; /* 왼쪽 상단 모서리만 둥글게 */
+    border: 1px solid #0068FF;     /* 테두리 색상 설정 */
+    background-color: #FFFFFF; 
+    border-radius: 10px; /* 배경 색상 */
+    color: #0068FF;                /* 텍스트 색상 */
+    cursor: pointer;             /* 마우스 커서 설정 */
+    opacity: 1;                  /* 불투명도 설정 */
+    transition: background-color 0.3s; /* 호버 효과를 위한 트랜지션 */
+}
+
+.join-button:hover {
+    background-color: #0056b3;   /* 호버 시 배경 색상 변경 */
+}
+
+
+.text{
+    color: #797979;
+}
